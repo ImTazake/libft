@@ -6,11 +6,12 @@
 /*   By: tazake <tazake@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:21:51 by tazake            #+#    #+#             */
-/*   Updated: 2026/09/09 07:21:52 by tazake           ###   ########.fr       */
+/*   Updated: 2026/10/26 22:15:34 by tazake           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
+/* #include <stddef.h> */
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

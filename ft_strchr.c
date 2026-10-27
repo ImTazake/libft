@@ -6,11 +6,12 @@
 /*   By: tazake <tazake@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:22:35 by tazake            #+#    #+#             */
-/*   Updated: 2026/09/09 07:22:36 by tazake           ###   ########.fr       */
+/*   Updated: 2026/10/26 22:14:47 by tazake           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
+/* #include <stddef.h> */
 
 char	*ft_strchr(const char *s, int c)
 {

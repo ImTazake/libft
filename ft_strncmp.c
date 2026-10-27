@@ -6,11 +6,12 @@
 /*   By: tazake <tazake@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:23:01 by tazake            #+#    #+#             */
-/*   Updated: 2026/09/09 07:23:02 by tazake           ###   ########.fr       */
+/*   Updated: 2026/10/26 22:13:24 by tazake           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
+/* #include <stddef.h> */
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

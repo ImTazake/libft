@@ -6,11 +6,12 @@
 /*   By: tazake <tazake@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:22:57 by tazake            #+#    #+#             */
-/*   Updated: 2026/09/09 07:22:58 by tazake           ###   ########.fr       */
+/*   Updated: 2026/10/26 22:13:34 by tazake           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
+/* #include <string.h> */
 
 size_t	ft_strlen(const char *s)
 {

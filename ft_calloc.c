@@ -6,12 +6,13 @@
 /*   By: tazake <tazake@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:29:01 by tazake            #+#    #+#             */
-/*   Updated: 2026/09/09 08:29:25 by tazake           ###   ########.fr       */
+/*   Updated: 2026/10/27 02:45:58 by tazake           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdint.h>
+#include "libft.h"
+/* #include <stdlib.h>
+#include <stdint.h> */
 
 void	*ft_calloc(size_t nbr_of_elements, size_t size)
 {

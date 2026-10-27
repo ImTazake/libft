@@ -6,11 +6,12 @@
 /*   By: tazake <tazake@student.42lisboa.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:21:08 by tazake            #+#    #+#             */
-/*   Updated: 2026/09/09 07:21:09 by tazake           ###   ########.fr       */
+/*   Updated: 2026/10/26 22:16:13 by tazake           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
+/* #include <stddef.h> */
 
 void ft_bzero(void *s, size_t n)
 {
