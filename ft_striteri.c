@@ -6,7 +6,7 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 21:30:00 by tisilva           #+#    #+#             */
-/*   Updated: 2026/10/27 21:30:06 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 13:39:10 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,24 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+
+/* #include <stdio.h>
+#include <ctype.h>
+
+void	ft_striteri(char *s, void (*f)(unsigned int, char *));
+
+void	ft_upper(unsigned int i, char *c)
+{
+	(void)i;
+	*c = toupper((unsigned char)*c);
+}
+
+int	main(void)
+{
+	char	str[] = "ola mundo";
+
+	printf("Antes: %s\n", str);
+	ft_striteri(str, ft_upper);
+	printf("Depois: %s\n", str);
+	return (0);
+} */

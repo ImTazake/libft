@@ -6,7 +6,7 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 21:31:06 by tisilva           #+#    #+#             */
-/*   Updated: 2026/10/28 04:41:43 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 13:42:23 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,3 +43,35 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trimmed = ft_substr(s1, start, end - start);
 	return (trimmed);
 }
+
+/* #include <stdio.h>
+#include <stdlib.h>
+
+char	*ft_strtrim(char const *s1, char const *set);
+
+int	main(void)
+{
+	char	*result;
+
+	result = ft_strtrim("xxxOla Mundoxxx", "x");
+	printf("Resultado: [%s]\n", result);
+	free(result);
+
+	result = ft_strtrim("   Ola Mundo   ", " ");
+	printf("Resultado: [%s]\n", result);
+	free(result);
+
+	result = ft_strtrim("ababOlaab", "ab");
+	printf("Resultado: [%s]\n", result);
+	free(result);
+
+	result = ft_strtrim("xxxx", "x");
+	printf("Resultado: [%s]\n", result);
+	free(result);
+
+	result = ft_strtrim("Ola Mundo", "xyz");
+	printf("Resultado: [%s]\n", result);
+	free(result);
+
+	return (0);
+} */

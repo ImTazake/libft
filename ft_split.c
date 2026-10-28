@@ -6,7 +6,7 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 21:29:30 by tisilva           #+#    #+#             */
-/*   Updated: 2026/10/28 04:38:19 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 14:38:01 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,3 +75,21 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (words);
 }
+
+/* #include <stdio.h>
+
+int	main(void)
+{Makefile
+	words = ft_split("ola mundo 42 Lisboa", ' ');
+	if (!words)
+		return (1);
+	i = 0;
+	while (words[i])
+	{
+		printf("words[%d] = %s\n", i, words[i]);
+		free(words[i]);
+		i++;
+	}
+	free(words);
+	return (0);
+} */

@@ -6,7 +6,7 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:21:24 by tisilva           #+#    #+#             */
-/*   Updated: 2026/10/28 10:05:44 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 13:35:35 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,3 +14,9 @@ int	ft_isalpha(int c)
 {
 	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
+
+/* #include <stdio.h>
+int main ()
+{
+	printf("%d",ft_isalpha(378));
+} */

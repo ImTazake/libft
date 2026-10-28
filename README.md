@@ -29,12 +29,14 @@ Available Makefile rules:
 
 ```bash
 make all
+make exe
 make clean
 make fclean
 make re
 ```
 
 - `make all`: compiles the library.
+- `make exe`: compiles the library and main.
 - `make clean`: removes object files.
 - `make fclean`: removes object files and the library.
 - `make re`: rebuilds the library.
@@ -137,6 +139,7 @@ Functions for creating, traversing, modifying, and deleting linked lists using t
 
 - [Linux manual pages](https://man7.org/linux/man-pages/)
 - The Libft subject and materials provided by the 42 curriculum.
+- Some research was done with AI.
 
 ## Disclaimer
 
