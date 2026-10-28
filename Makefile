@@ -5,6 +5,7 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 AR = ar rcs
 RM = rm -f
+PROG = prog
 
 SRCS = ft_isalpha.c \
        ft_isdigit.c \
@@ -59,11 +60,17 @@ all: $(NAME)
 
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $(OBJS)
-	$(MAKE) clean
 
 %.o: %.c libft.h
 	$(CC) $(CFLAGS) -c $< -o $@
-
+exe: $(NAME)
+	echo '#include "libft.h"' > main.c
+	echo '' >> main.c
+	echo 'int main(void)' >> main.c
+	echo '{' >> main.c
+	echo '	return (0);' >> main.c
+	echo '}' >> main.c
+	$(CC) $(CFLAGS) main.c $(NAME) -o $(PROG)
 clean:
 	$(RM) $(OBJS)
 
@@ -72,4 +79,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re exe

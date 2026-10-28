@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tazake <tazake@student.42lisboa.com>       +#+  +:+       +#+        */
+/*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:23:01 by tazake            #+#    #+#             */
-/*   Updated: 2026/10/26 22:13:24 by tazake           ###   ########.fr       */
+/*   Updated: 2026/10/27 22:43:08 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/* #include <stddef.h> */
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
@@ -24,3 +23,23 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (0);
 	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
+
+/* 
+#include <stdio.h>
+#include <bsd/string.h>
+
+int	main(void)
+{
+	char	*s1 = "Sphinx of";
+	char	*s2 = "Sphinx of black quartz";
+	int 	ret1;
+	int 	ret2;
+
+	ret2 = strncmp(s1, s2, strlen(s1));
+	ret1 = ft_strncmp(s1, s2, strlen(s1));
+
+	printf("ft ret:  %d\n", ret1);
+	printf("std ret: %d\n", ret2);
+	return (0);
+}
+ */

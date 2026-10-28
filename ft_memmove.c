@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tazake <tazake@student.42lisboa.com>       +#+  +:+       +#+        */
+/*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:22:25 by tazake            #+#    #+#             */
-/*   Updated: 2026/10/26 22:15:09 by tazake           ###   ########.fr       */
+/*   Updated: 2026/10/27 22:21:25 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/* #include <stddef.h> */
 
 void	*ft_memmove(void *dst, const void *src, size_t n)
 {
@@ -41,3 +40,33 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
+/* #include <stdio.h>
+
+int	main(int argc, char *argv[])
+{
+	int		len;
+	char	*src;
+	char	*dest_ft;
+	char	*dest_std;
+
+	if (argc != 2)
+		return (1);
+
+	len = strlen(argv[1]) + 1;
+	dest_ft = malloc(len);
+	// dest_ft = NULL;
+	dest_std = malloc(len);
+	// dest_std = NULL;
+	src = strdup(argv[1]);
+	// printf("dest_ft: %p\n", dest_ft);
+	// printf("dest_std: %p\n", dest_std);
+	// printf("src: %p\n", src);
+
+	memmove(dest_std, src, 0);
+	ft_memmove(dest_ft, src, 0);
+	printf("dest_ft:  [%s]\n", dest_ft);
+	printf("dest_std: [%s]\n", dest_std);
+	return (0);
+}
+ */

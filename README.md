@@ -12,7 +12,7 @@ The project focuses on memory management, pointers, strings, character manipulat
 
 ### Requirements
 
-- A C compiler, such as `cc`.
+- A C compiler, such as `gcc` or `clang`.
 - GNU Make.
 
 ### Compilation
@@ -28,13 +28,13 @@ This generates the static library `libft.a`.
 Available Makefile rules:
 
 ```bash
-make
+make all
 make clean
 make fclean
 make re
 ```
 
-- `make`: compiles the library.
+- `make all`: compiles the library.
 - `make clean`: removes object files.
 - `make fclean`: removes object files and the library.
 - `make re`: rebuilds the library.
@@ -50,7 +50,7 @@ Include the header in your C source file:
 Compile your program with the library:
 
 ```bash
-cc -Wall -Wextra -Werror main.c -L. -lft -o program
+cc -Wall -Wextra -Werror main.c libft.a -o program
 ```
 
 Run the executable:
@@ -136,8 +136,6 @@ Functions for creating, traversing, modifying, and deleting linked lists using t
 ## Resources
 
 - [Linux manual pages](https://man7.org/linux/man-pages/)
-- [C reference — cppreference](https://en.cppreference.com/w/c)
-- [GNU Make manual](https://www.gnu.org/software/make/manual/)
 - The Libft subject and materials provided by the 42 curriculum.
 
 ## Disclaimer

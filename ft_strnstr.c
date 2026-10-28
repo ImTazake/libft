@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tazake <tazake@student.42lisboa.com>       +#+  +:+       +#+        */
+/*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:23:05 by tazake            #+#    #+#             */
-/*   Updated: 2026/10/26 22:13:01 by tazake           ###   ########.fr       */
+/*   Updated: 2026/10/27 22:45:58 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/* #include <stddef.h> */
 
 char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 {
@@ -19,15 +18,15 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 	size_t j;
 
 	if (to_find[0] == '\0')
-		return ((char *)str);
+		return ((char *) str);
 	i = 0;
 	while (str[i] && i < len)
 	{
 		j = 0;
 		while (i + j < len && to_find[j] && str[i + j] == to_find[j])
 			j++;
-		if(to_find[j] == '\0')
-			return ((char *)&str[i]);
+		if (to_find[j] == '\0')
+			return ((char *) &str[i]);
 		i++;
 	}
 	return (NULL);
