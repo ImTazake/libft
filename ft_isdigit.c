@@ -6,11 +6,11 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:21:35 by tazake            #+#    #+#             */
-/*   Updated: 2026/10/27 21:27:21 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 04:33:20 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int     ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-    return (c >= '0' && c <= '9');
+	return (c >= '0' && c <= '9');
 }

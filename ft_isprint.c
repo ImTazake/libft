@@ -6,11 +6,11 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:21:43 by tazake            #+#    #+#             */
-/*   Updated: 2026/10/27 21:36:13 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 04:33:48 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int     ft_isprint(int c)
+int	ft_isprint(int c)
 {
-    return (c >= ' ' && c <= '~');
+	return (c >= ' ' && c <= '~');
 }

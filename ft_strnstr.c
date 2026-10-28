@@ -6,7 +6,7 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:23:05 by tazake            #+#    #+#             */
-/*   Updated: 2026/10/27 22:45:58 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 04:41:09 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 {
-	size_t i;
-	size_t j;
+	size_t	i;
+	size_t	j;
 
 	if (to_find[0] == '\0')
 		return ((char *) str);

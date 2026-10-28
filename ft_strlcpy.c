@@ -6,7 +6,7 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:22:53 by tazake            #+#    #+#             */
-/*   Updated: 2026/10/28 00:45:51 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 04:40:19 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,4 +53,3 @@ int	main(void)
 	printf("ft ret/dst:  [%d] '%s'\n", ret2, dst2);
 	return (0);
 } */
-

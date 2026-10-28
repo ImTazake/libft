@@ -6,11 +6,11 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:21:30 by tazake            #+#    #+#             */
-/*   Updated: 2026/10/27 21:27:24 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 04:32:43 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int     ft_isascii(int c)
+int	ft_isascii(int c)
 {
-    return (c >= 0 && c <= 127);
+	return (c >= 0 && c <= 127);
 }

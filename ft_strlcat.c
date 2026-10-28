@@ -6,12 +6,11 @@
 /*   By: tisilva <tisilva@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/09 07:22:41 by tazake            #+#    #+#             */
-/*   Updated: 2026/10/27 22:31:43 by tisilva          ###   ########.fr       */
+/*   Updated: 2026/10/28 04:39:59 by tisilva          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
